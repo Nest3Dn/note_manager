@@ -1,9 +1,9 @@
-username = input()
-title = input()
-content = input()
-status = input()
-created_date = input()
-issue_date = input()
+username = 'Никита Смирнов' # Имя пользователя
+title = 'Создание проекта' # Заголовок заметки
+content = 'Создать, проверить и утвердить проект' # Описание заметки
+status = 'Активна' # Статус заметки
+created_date = '04.01.2025' # Дата создания заметки
+issue_date = '04.01.2026' # Дата истечения заметки
 
 print("Имя пользователя:", username)
 print("Заголовок заметки:", title)
