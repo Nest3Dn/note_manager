@@ -22,7 +22,7 @@ while True:
       new_status = input("Введите ваш вариант: ")
       print("Статус вашей заметки обновлен на:", new_status)
       break
-   elif status_update == "":
+   else:
       print("Попробуйте снова")
 
 status = status_update
